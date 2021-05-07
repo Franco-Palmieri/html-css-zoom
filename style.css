@@ -15,20 +15,32 @@ nav{
     justify-content: space-between;
     align-items: flex-end;
 }
-nav .lista:first-child, nav .lista:last-child{
-    flex-basis: 200px;
-}
 nav .lista ul{
     display: flex;
     list-style: none;
     color: white;
     border: 1px solid black;
+}
+.icons{
+    display: block;
+    text-align: center;
+}
+nav .lista ul li{
     padding: 0 15px;
+    margin-bottom: 10px;
+}
+nav .lista ul li:first-child{
+    padding-left: 0;
+}
+nav .lista ul li:last-child{
+    margin-bottom: 0;
 }
 .botton{
     height: 60px;
+    width: 100px;
     color: red;
     line-height: 60px;
+    text-align: center;
 }
 main{
     background-color: black;
