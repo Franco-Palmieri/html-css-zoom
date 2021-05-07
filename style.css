@@ -10,7 +10,7 @@
 }
 nav{
     height: 60px;
-    background-color: rgb(143, 135, 135);
+    background-color: rgb(54, 54, 54);
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -19,30 +19,44 @@ nav .lista ul{
     display: flex;
     list-style: none;
     color: white;
-    border: 1px solid black;
+}
+
+nav .lista ul li{
+    padding: 0 15px;
+    margin-bottom: 10px;
+    font-size: 13px;
 }
 .icons{
     display: block;
     text-align: center;
-}
-nav .lista ul li{
-    padding: 0 15px;
-    margin-bottom: 10px;
-}
-nav .lista ul li:first-child{
-    padding-left: 0;
+    font-size: 20px;
 }
 nav .lista ul li:last-child{
     margin-bottom: 0;
+    padding: 0;
 }
 .botton{
     height: 60px;
     width: 100px;
+    background-color: lightgray;
     color: red;
+    font-weight: bold;
     line-height: 60px;
     text-align: center;
 }
 main{
     background-color: black;
     flex-grow: 1;
+    display: flex;
+}
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 15px;
+}
+.picture{
+    width: 180px;
+    height: 150px;
+    border: 1px solid white;
 }
