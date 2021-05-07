@@ -10,7 +10,25 @@
 }
 nav{
     height: 60px;
-    background-color: rebeccapurple;
+    background-color: rgb(143, 135, 135);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav .lista:first-child, nav .lista:last-child{
+    flex-basis: 200px;
+}
+nav .lista ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    border: 1px solid black;
+    padding: 0 15px;
+}
+.botton{
+    height: 60px;
+    color: red;
+    line-height: 60px;
 }
 main{
     background-color: black;
